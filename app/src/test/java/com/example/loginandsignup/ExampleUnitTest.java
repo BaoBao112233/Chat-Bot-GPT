@@ -1,4 +1,4 @@
-package com.example.chatbotapplication;
+package com.example.loginandsignup;
 
 import org.junit.Test;
 

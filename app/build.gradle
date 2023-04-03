@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chatbotapplication'
+    namespace 'com.example.loginandsignup'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.chatbotapplication"
+        applicationId "com.example.loginandsignup"
         minSdk 24
         targetSdk 33
         versionCode 1
