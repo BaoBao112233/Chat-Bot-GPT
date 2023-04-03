@@ -6,9 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <EditText
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/chattobot"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="hello"/>
+        android:text="Chat With Bot"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/chattobotbyimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat With bot by image"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/chattobot"/>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/chattobotbyimage"/>
 
 </RelativeLayout>
