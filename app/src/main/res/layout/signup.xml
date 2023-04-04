@@ -7,12 +7,23 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="142dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="126dp"
+        android:text="Signup"
+        android:textSize="40dp" />
+
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="User Name"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="100dp"/>
 
     <EditText
         android:id="@+id/password"
@@ -36,6 +47,8 @@
         android:layout_height="wrap_content"
         android:text="Register"
         android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
         android:layout_below="@+id/repassword"/>
 
     <Button
@@ -44,6 +57,8 @@
         android:layout_height="wrap_content"
         android:text="Sign In"
         android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
         android:layout_below="@+id/btnsignup"/>
 
 
